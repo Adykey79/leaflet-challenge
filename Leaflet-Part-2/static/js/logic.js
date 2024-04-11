@@ -94,9 +94,14 @@ const createMap = (data) =>{
                 }
 
                 // add all the circles
-                return L.circle([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], geoMarkerOption).bindPopup(`<h3> Magnitude:${mag}</h3> 
-                                                                                                                                    <h3> Depth: ${depth} </h3>
-                                                                                                                                    <h3> Location: ${location} </h3>`);
+                return L.circle([
+                    feature.geometry.coordinates[1],
+                    feature.geometry.coordinates[0]],
+                    geoMarkerOption).bindPopup(
+                        `<h3> Magnitude:${mag}</h3>
+                         <h3> Depth: ${depth} </h3>
+                         <h3> Location: ${location} </h3>
+                    `);
     });
 
     const earthquakeLayer = L.layerGroup(earthquakes)
