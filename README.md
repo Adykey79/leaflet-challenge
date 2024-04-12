@@ -13,13 +13,11 @@ The project was divided into two steps with different levels of complexity.
 
 ![Screenshot_1559](https://github.com/Adykey79/leaflet-challenge/assets/149746353/a5917cd3-cea5-4d33-997d-79eefbae7611)
 
-Base layer: mapbox.greyscale
-Data Layer Source: United States Geological Survey (USGS)
-Data: All Earthquakes for the last 7 days
 
 ### Step 2: Map to illustrate the relationship between tectonic plates and seismic activity
 Multiple optional and interactive base layers were included.
 
+![ezgif com-resize](https://github.com/Adykey79/leaflet-challenge/assets/149746353/b33e1e87-1cac-41ac-b9de-031cad84aed1)
 
 
 
